@@ -12,10 +12,7 @@ Este é o frontend de um sistema web que permite criar propostas personalizadas 
 ## **Configure a porta da API:**
 
     Crie um arquivo `.env` na raiz do projeto e adicione a porta da sua API:
-
-    ```plaintext
     PORT=3001
-    ```
 
 # Getting Started with Create React App
 
