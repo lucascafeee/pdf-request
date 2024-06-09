@@ -1,3 +1,22 @@
+# Gerador de Propostas Frontend
+
+Este é o frontend de um sistema web que permite criar propostas personalizadas para empresas. O usuário pode buscar os dados da empresa usando o CNPJ, adicionar produtos e gerar um documento PDF estilizado.
+
+## Funcionalidades
+
+- **Busca de Dados da Empresa**: Permite buscar os dados da empresa usando o CNPJ.
+- **Editor de Propostas**: Um editor de texto semelhante ao Word para criar e personalizar propostas.
+- **Adicionar Produtos**: Permite adicionar produtos com nome, quantidade e preço, exibindo-os em uma lista.
+- **Geração de PDF**: Gera um documento PDF estilizado com as informações da empresa e a lista de produtos.
+
+## **Configure a porta da API:**
+
+    Crie um arquivo `.env` na raiz do projeto e adicione a porta da sua API:
+
+    ```plaintext
+    PORT=3001
+    ```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -39,7 +39,7 @@ const PropostaEditor = () => {
     const fetchAndFillCompanyData = async () => {
         setError('');
         try {
-            const cleanedCnpj = cnpj.replace(/\D/g, ''); // Remove todos os caracteres não numéricos
+            const cleanedCnpj = cnpj.replace(/\D/g, '');
             const data = await fetchCompanyData(cleanedCnpj);
             setCompanyData(data);
 
