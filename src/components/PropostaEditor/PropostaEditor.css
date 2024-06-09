@@ -1,0 +1,48 @@
+.proposta-editor {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 100%;
+}
+
+#content {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button.blue {
+    background-color: #007BFF;
+}
+
+button.blue:hover {
+    background-color: #0056b3;
+}
+
+button.green {
+    background-color: #28a745;
+}
+
+button.green:hover {
+    background-color: #218838;
+}
+
+.MuiList-root {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

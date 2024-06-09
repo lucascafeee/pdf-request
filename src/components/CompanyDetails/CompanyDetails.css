@@ -1,0 +1,15 @@
+.company-data {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company-data .MuiTypography-body1 {
+    margin-bottom: 8px;
+}
+
+.company-data .MuiTypography-h6 {
+    margin-bottom: 16px;
+}
